@@ -330,11 +330,13 @@ export default function App() {
         {/* Zone 1: Single text element wordmark */}
         <a
           href="/"
-          className="text-lg font-hud font-black tracking-tight text-white whitespace-nowrap shrink-0 flex items-center gap-2"
+          className="text-lg font-hud font-black tracking-tight text-white whitespace-nowrap shrink-0 flex items-center gap-2.5"
         >
-          <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center text-slate-950 font-bold text-sm shadow-md">
-            <Radio className="w-4 h-4 text-white" />
-          </div>
+          <img
+            src="/assets/aistudio/IMG_6058_56a3fbee.jpeg"
+            alt="SpeedCam Ghana Icon"
+            className="w-8 h-8 rounded-lg object-cover shadow-md ring-1 ring-white/20"
+          />
           <span>SpeedCam Ghana</span>
         </a>
 
