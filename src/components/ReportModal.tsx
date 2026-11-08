@@ -89,8 +89,12 @@ export const ReportModal: React.FC<ReportModalProps> = ({
     <div className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4 backdrop-blur-sm animate-fade-in">
       <div className="bg-slate-900 border border-slate-800 rounded-2xl max-w-lg w-full p-6 shadow-2xl text-slate-100 max-h-[90vh] overflow-y-auto">
         <div className="flex items-center justify-between pb-3 border-b border-slate-800 mb-4">
-          <div className="flex items-center gap-2">
-            <Radio className="w-5 h-5 text-cyan-400" />
+          <div className="flex items-center gap-2.5">
+            <img
+              src="/assets/aistudio/IMG_6058_e0c4769c.jpeg"
+              alt="SpeedCam Ghana"
+              className="w-7 h-7 rounded-lg object-contain shadow-md ring-1 ring-white/15 shrink-0"
+            />
             <h3 className="font-semibold text-lg text-white">Report Road Enforcement</h3>
           </div>
           <button

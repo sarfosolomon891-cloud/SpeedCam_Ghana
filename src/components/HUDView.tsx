@@ -89,11 +89,11 @@ export const HUDView: React.FC<HUDViewProps> = ({
           >
             <X className="w-6 h-6" />
           </button>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2.5">
             <img
-              src="/assets/aistudio/IMG_6058_56a3fbee.jpeg"
+              src="/assets/aistudio/IMG_6058_e0c4769c.jpeg"
               alt="SpeedCam Ghana"
-              className="w-6 h-6 rounded-md object-cover ring-1 ring-white/20"
+              className="w-7 h-7 rounded-lg object-contain shadow ring-1 ring-white/15"
             />
             <div className="text-xs uppercase tracking-widest text-slate-400 font-mono">
               Ghana MTTD · Windshield HUD

@@ -330,14 +330,14 @@ export default function App() {
         {/* Zone 1: Single text element wordmark */}
         <a
           href="/"
-          className="text-lg font-hud font-black tracking-tight text-white whitespace-nowrap shrink-0 flex items-center gap-2.5"
+          className="text-lg font-hud font-black tracking-tight text-white whitespace-nowrap shrink-0 flex items-center gap-2.5 group"
         >
           <img
-            src="/assets/aistudio/IMG_6058_56a3fbee.jpeg"
-            alt="SpeedCam Ghana Icon"
-            className="w-8 h-8 rounded-lg object-cover shadow-md ring-1 ring-white/20"
+            src="/assets/aistudio/IMG_6058_e0c4769c.jpeg"
+            alt="SpeedCam Ghana App Icon"
+            className="w-9 h-9 rounded-xl object-contain shadow-lg ring-1 ring-white/15 transition-transform group-hover:scale-105"
           />
-          <span>SpeedCam Ghana</span>
+          <span className="tracking-tight">SpeedCam Ghana</span>
         </a>
 
         {/* Zone 2: 4-5 concise single-line text navigation links */}
